@@ -58,20 +58,22 @@
 	    		});
 	    	}
 			
-			var result;
+			var result, f, t;
+			f = qs[1];
 			
 			if(qs.length == 2)
-				result = convert(qs[0]).from(qs[1]).toBest();
-			else
-				result = convert(qs[0]).from(qs[1]).to(qs[2]);
+				t = convert(qs[0]).from(f).toBest().unit;
+			
+			result = convert(qs[0]).from(f).to(t);
 
 			
-			return res.add({
+			res.add({
 				id: 'done',
 				payload: result,
 				title: query_trim,
 				desc: `Press Enter to copy ${result} to clipboard`
 			});
+			return;
 		}
 
 		function execute(id, payload){
