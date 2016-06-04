@@ -63,6 +63,8 @@
 			
 			if(qs.length == 2)
 				t = convert(qs[0]).from(f).toBest().unit;
+			else
+				t = qs[2];
 			
 			result = convert(qs[0]).from(f).to(t);
 
