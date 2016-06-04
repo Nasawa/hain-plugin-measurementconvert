@@ -1,0 +1,29 @@
+{
+  "name": "hain-plugin-currencyconvert",
+  "version": "0.0.1",
+  "description": "A measurement converter using github.com/ben-ng/convert-units for Hain",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nasawa/hain-plugin-measurementconvert"
+  },
+  "keywords": [
+    "hain0"
+  ],
+  "author": "Christopher Johnson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nasawa/hain-plugin-measurementconvert/issues"
+  },
+  "homepage": "https://github.com/Nasawa/hain-plugin-measurementconvert#readme",
+  "hain": {
+    "prefix": "/convert ",
+    "usage": "/convert 5 in mm",
+    "icon": "#fa fa-balance-scale",
+    "redirect": "/convert "
+  },
+  "dependencies": {
+    "convert-units": "^1.0.1",
+    "copy-paste-win32fix": "^1.2.0"
+  }
+}
