@@ -1,5 +1,5 @@
 {
-  "name": "hain-plugin-currencyconvert",
+  "name": "hain-plugin-measurementconvert",
   "version": "0.0.1",
   "description": "A measurement converter using github.com/ben-ng/convert-units for Hain",
   "main": "index.js",
