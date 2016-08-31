@@ -1,6 +1,6 @@
 {
   "name": "hain-plugin-measurementconvert",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A measurement converter using github.com/ben-ng/convert-units for Hain",
   "main": "index.js",
   "repository": {
@@ -10,7 +10,7 @@
   "keywords": [
     "hain0"
   ],
-  "author": "Christopher Johnson",
+  "author": "Kyen",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Nasawa/hain-plugin-measurementconvert/issues"
