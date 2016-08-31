@@ -1,6 +1,6 @@
 {
   "name": "hain-plugin-measurementconvert",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A measurement converter using github.com/ben-ng/convert-units for Hain",
   "main": "index.js",
   "repository": {

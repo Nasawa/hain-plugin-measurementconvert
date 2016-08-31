@@ -65,14 +65,15 @@
 				t = convert(qs[0]).from(f).toBest().unit;
 			else
 				t = qs[2];
+
+			t = "lbs" ? "lb" : t;
 			
 			result = convert(qs[0]).from(f).to(t);
-
 			
 			res.add({
 				id: 'done',
 				payload: result,
-				title: query_trim,
+				title: `${qs[0]} ${qs[1]} = ${result} ${qs[2]}`,
 				desc: `Press Enter to copy ${result} to clipboard`
 			});
 			return;
