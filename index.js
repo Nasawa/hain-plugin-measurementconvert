@@ -73,7 +73,7 @@
 			res.add({
 				id: 'done',
 				payload: result,
-				title: `${qs[0]} ${qs[1]} = ${result} ${qs[2]}`,
+				title: `${qs[0]} ${qs[1]} = ${result} ${t}`,
 				desc: `Press Enter to copy ${result} to clipboard`
 			});
 			return;
