@@ -65,6 +65,8 @@
 				t = convert(qs[0]).from(f).toBest().unit;
 			else
 				t = qs[2];
+
+			t = t == "lbs" ? "lb" : t;
 			
 			result = convert(qs[0]).from(f).to(t);
 			
